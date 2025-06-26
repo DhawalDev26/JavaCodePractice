@@ -23,7 +23,7 @@ public class TablePrinter implements Runnable {
         Thread.sleep(1000);
         thread2.setPriority(1);
         Thread.yield();
-        // Optional: Play with thread properties
+
 //        System.out.println(thread1.getName());
 //        thread1.setName("MyZecDataThread");
 //        System.out.println(thread1.getName());
